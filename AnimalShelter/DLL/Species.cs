@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace DLL
 {
-    class EnumClass
+    public enum Species
     {
-        public enum Gender
-        {
-            Male,
-            Female
-        }
+        Cat,
+        Dog
     }
 }
