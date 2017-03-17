@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DLL.Types
+namespace DLL.DomainClasses
 {
-    class Dog : Animal
+    public class Dog : Animal
     {
         public DateTime LastWalk { get; set; }
 
@@ -17,7 +17,7 @@ namespace DLL.Types
 
         public void SetWalkingDate(DateTime datetime)
         {
-            
+            LastWalk = datetime;
         }
     }
 }

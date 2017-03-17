@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DLL.Types
+namespace DLL.DomainClasses
 {
-    class Cat : Animal
+    public class Cat : Animal
     {
         public string Behavior { get; set; }
 
@@ -17,7 +17,7 @@ namespace DLL.Types
 
         public void SetBehavior(string behavior)
         {
-            
+            Behavior = behavior;
         }
     }
 }

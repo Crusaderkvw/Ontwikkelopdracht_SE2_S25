@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Country.cs" />
+    <Compile Include="DomainClasses\Customer.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="DomainClasses\Animal.cs" />
     <Compile Include="Animalshelter.cs" />

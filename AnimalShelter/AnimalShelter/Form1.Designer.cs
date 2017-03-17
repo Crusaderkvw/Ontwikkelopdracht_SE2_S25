@@ -38,7 +38,7 @@
             // lstBoxOverview
             // 
             this.lstBoxOverview.FormattingEnabled = true;
-            this.lstBoxOverview.Location = new System.Drawing.Point(12, 158);
+            this.lstBoxOverview.Location = new System.Drawing.Point(12, 165);
             this.lstBoxOverview.Name = "lstBoxOverview";
             this.lstBoxOverview.Size = new System.Drawing.Size(372, 160);
             this.lstBoxOverview.TabIndex = 0;
@@ -69,13 +69,13 @@
             this.btnSellAnimal.Name = "btnSellAnimal";
             this.btnSellAnimal.Size = new System.Drawing.Size(80, 40);
             this.btnSellAnimal.TabIndex = 3;
-            this.btnSellAnimal.Text = "Verkoop";
+            this.btnSellAnimal.Text = "Verkoop dier";
             this.btnSellAnimal.UseVisualStyleBackColor = true;
             this.btnSellAnimal.Click += new System.EventHandler(this.btnSellAnimal_Click);
             // 
             // btnRefreshList
             // 
-            this.btnRefreshList.Location = new System.Drawing.Point(12, 129);
+            this.btnRefreshList.Location = new System.Drawing.Point(12, 136);
             this.btnRefreshList.Name = "btnRefreshList";
             this.btnRefreshList.Size = new System.Drawing.Size(103, 23);
             this.btnRefreshList.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 332);
+            this.ClientSize = new System.Drawing.Size(399, 340);
             this.Controls.Add(this.btnRefreshList);
             this.Controls.Add(this.btnSellAnimal);
             this.Controls.Add(this.btnReserveAnimal);

@@ -10,7 +10,7 @@ namespace DLL
     {
         public string Name { get; set; }
         public int Age { get; set; }
-        public Gender gender { get; set; }
+        public Gender Gender { get; set; }
         public decimal Weight { get; set; }
         public decimal Price { get; set; }
         public bool Reserved { get; set; }
@@ -19,33 +19,39 @@ namespace DLL
 
         public Animal(Species species, string name, int age, Gender gender, decimal weight, decimal price, bool reserved, bool isSold)
         {
-            
+            Species = species;
+            Name = name;
+            Age = age;
+            Gender = gender;
+            Weight = weight;
+            Price = price;
+            Reserved = reserved;
+            IsSold = isSold;
         }
 
         public void Sell(Animal animal)
         {
-            
+            animal.IsSold = true;
         }
 
         public void SetReserved(Animal animal)
         {
-            
+            animal.Reserved = true;
         }
 
         public bool CheckReserved(Animal animal)
         {
-
-            return true;
+            return animal.Reserved;
         }
 
         public void RemoveReservation(Animal animal)
         {
-            
+            animal.Reserved = false;
         }
 
         public override string ToString()
         {
-            return Species + " " + Name + " " + Reserved;
+            return "Species: " + Species + " " + "Name: " + Name + " " + "Reserved: " + Reserved;
         }
     }
 }
